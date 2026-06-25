@@ -1,0 +1,42 @@
+
+LIGHTFIELD V4.3 FINAL FIX (SYSTEM LOCK VERSION)
+
+CRITICAL FIXES
+----------------
+1. HERO / LOGO SYSTEM
+- Fixed LIGHTFIELD duplication issue (removed double L problem)
+- HERO now uses single LIGHTFIELD logotype only
+- Chinese "光域" upgraded to designed type placeholder (no default system font)
+
+2. TYPOGRAPHY SYSTEM UPGRADE
+- English LIGHTFIELD spacing rebalanced (optical kerning)
+- Chinese wordmark treated as brand system, not subtitle text
+- Improved hierarchy between EN / CN
+
+3. CASE COVER SYSTEM (IMPORTANT)
+- All featured cases upgraded to "poster-grade KV logic"
+- 市集公益行 → cinematic narrative KV (warm light / depth / crowd emotion)
+- 科博会 → spatial tech exhibition KV (dark field / light beam / structure)
+
+4. IMAGE LAYOUT SYSTEM
+- Removed PPT-style white gaps between images
+- Unified tight grid spacing system
+- Increased visual density consistency across case sections
+
+5. CASE IMAGE CURATION
+- Expanded POLY / HONGKUN / BAOLI assets usage
+- Increased usable image count per case (8+ logic enforced)
+- Removed weak / redundant placeholder covers
+
+6. SPACING SYSTEM
+- Global section spacing reduced (~20%)
+- Case blocks now follow consistent rhythm grid
+- Improved vertical flow continuity
+
+7. VISUAL TONE
+- Stronger contrast hierarchy
+- Reduced "template feel"
+- Increased editorial / studio portfolio feel
+
+NOTE:
+This is a SYSTEM FIX version. If future upgrade is needed, next step is "V5 Brand System Lock + Design Language Standardization".

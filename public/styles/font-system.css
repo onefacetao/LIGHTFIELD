@@ -1,0 +1,342 @@
+
+/* V5 LIGHTFIELD FONT SYSTEM */
+
+:root{
+  --lf-font-en: "Helvetica Neue", Arial, sans-serif;
+  --lf-font-cn: "PingFang SC", "Noto Sans SC", sans-serif;
+}
+
+.brand-title{
+  letter-spacing: 0.08em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.brand-cn{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.lightfield-lockup{
+  display:flex;
+  gap:12px;
+  align-items:baseline;
+}
+
+
+/* V5.1 VISUAL LOCK ADDITION */
+
+body{
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+.section{
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+.hero-lock{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  align-items:flex-start;
+}
+
+.case-grid{
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:24px;
+}
+
+
+/* V5.2 BRAND TONE UNIFICATION */
+
+body{
+  background: #050505;
+  color: rgba(244,241,232,0.92);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.005em;
+  line-height: 1.55;
+}
+
+h1,h2,h3{
+  letter-spacing: 0.02em;
+  font-weight: 300;
+}
+
+.eyebrow{
+  letter-spacing: 0.18em;
+  opacity: 0.7;
+}
+
+.hero h1{
+  letter-spacing: 0.12em;
+}
+
+.cn-mark{
+  letter-spacing: 0.22em;
+  opacity: 0.95;
+}
+
+.section-title strong{
+  letter-spacing: 0.04em;
+}
+
+.case-copy h2{
+  letter-spacing: 0.02em;
+}
+
+.case-copy p{
+  color: rgba(244,241,232,0.62);
+}
+
+.small-card p, .archive-card p{
+  color: rgba(244,241,232,0.55);
+}
+
+.case-stage{
+  border-color: rgba(255,255,255,0.08);
+}
+
+.archive-card, .small-card{
+  border-color: rgba(255,255,255,0.08);
+}
+
+.nav{
+  background: rgba(5,5,5,0.85);
+  backdrop-filter: blur(22px);
+}
+
+
+/* V5.3 FINAL POLISH LAYER */
+
+html{
+  scroll-behavior: smooth;
+}
+
+a, .small-card, .archive-card, .case-stage img{
+  transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.small-card:hover, .archive-card:hover{
+  transform: translateY(-6px);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.case-stage img:hover{
+  transform: scale(1.02);
+  filter: brightness(1.05);
+}
+
+.case-strip img:hover{
+  transform: scale(1.04);
+  opacity: 1;
+}
+
+.hero{
+  animation: heroFade 1.2s ease-out both;
+}
+
+@keyframes heroFade{
+  from{opacity:0; transform: translateY(20px);}
+  to{opacity:1; transform: translateY(0);}
+}
+
+.section-head{
+  opacity:0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay:0.2s;
+}
+
+@keyframes fadeIn{
+  from{opacity:0; transform: translateY(12px);}
+  to{opacity:1; transform: translateY(0);}
+}
+
+/* improve click affordance */
+a{
+  cursor:pointer;
+}
+
+/* subtle glass effect reinforcement */
+.nav{
+  background: rgba(5,5,5,0.72);
+  backdrop-filter: blur(28px);
+}
+
+
+/* V6.0 PENTAGRAM LEVEL REBUILD */
+
+body{
+  background:#050505;
+  color:rgba(255,255,255,0.92);
+}
+
+.hero{
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.10), transparent 40%),
+    radial-gradient(circle at 70% 60%, rgba(184,151,90,0.10), transparent 45%),
+    linear-gradient(180deg,#050505,#0a0a0a);
+}
+
+.hero h1{
+  font-size: clamp(72px, 10vw, 160px);
+  letter-spacing: 0.06em;
+  font-weight: 200;
+}
+
+.cn-mark{
+  letter-spacing:0.28em;
+  opacity:0.85;
+}
+
+.case-stage{
+  border:1px solid rgba(255,255,255,0.08);
+  background:rgba(255,255,255,0.02);
+}
+
+.case-stage img{
+  height:72vh;
+  object-fit:cover;
+  filter:contrast(1.05) saturate(0.95);
+}
+
+.case-copy{
+  padding:72px 72px;
+}
+
+.section-title strong{
+  font-size:40px;
+  letter-spacing:0.02em;
+}
+
+.small-card:hover{
+  transform:translateY(-10px);
+}
+
+.archive-grid{
+  grid-template-columns: repeat(2,1fr);
+  gap:18px;
+}
+
+.archive-card img{
+  height:260px;
+}
+
+/* editorial spacing system */
+.selected, .archive{
+  padding-top:72px;
+  padding-bottom:92px;
+}
+
+.section-head{
+  margin-bottom:32px;
+}
+
+/* remove "busy feel" */
+.method-card p{
+  opacity:0.65;
+}
+
+
+/* V6.1 FINAL RELEASE LAYER */
+
+body{
+  background:#040404;
+  color:rgba(255,255,255,0.94);
+}
+
+/* smoother global rhythm */
+html{
+  scroll-behavior:smooth;
+}
+
+section{
+  scroll-margin-top:80px;
+}
+
+/* hero refinement */
+.hero{
+  background:
+    radial-gradient(circle at 50% 30%, rgba(255,255,255,0.12), transparent 45%),
+    radial-gradient(circle at 70% 70%, rgba(184,151,90,0.12), transparent 50%),
+    linear-gradient(180deg,#040404,#0a0a0a);
+}
+
+/* stronger hierarchy clarity */
+.hero h1{
+  letter-spacing:0.08em;
+  font-weight:200;
+}
+
+/* case cinematic upgrade */
+.case-stage{
+  border:1px solid rgba(255,255,255,0.06);
+  background:rgba(255,255,255,0.015);
+  transition:transform .6s cubic-bezier(0.22,1,0.36,1);
+}
+
+.case-stage:hover{
+  transform:translateY(-6px);
+}
+
+/* image cinematic behavior */
+.case-stage img{
+  filter:contrast(1.08) saturate(0.92) brightness(0.98);
+  transition:transform .8s cubic-bezier(0.22,1,0.36,1), filter .8s ease;
+}
+
+.case-stage img:hover{
+  transform:scale(1.03);
+  filter:contrast(1.12) saturate(0.95);
+}
+
+/* refined typography breathing */
+.case-copy p{
+  line-height:1.75;
+  letter-spacing:0.01em;
+}
+
+/* navigation refinement */
+.nav{
+  background:rgba(4,4,4,0.75);
+  backdrop-filter:blur(30px);
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+
+/* remove visual noise */
+.small-card, .archive-card{
+  transition:transform .5s ease, border-color .5s ease;
+}
+
+/* FINAL STUDIO FEEL */
+.section-head{
+  margin-bottom:36px;
+}
+
+/* V7 PITCH SYSTEM */
+
+.pitch{
+  padding:120px 0;
+  background:linear-gradient(180deg,#050505,#0b0b0b);
+}
+
+.pitch-block{
+  margin-bottom:64px;
+  max-width:720px;
+}
+
+.pitch-block h2{
+  font-size:28px;
+  letter-spacing:0.08em;
+  margin-bottom:12px;
+  font-weight:300;
+}
+
+.pitch-block p{
+  color:rgba(255,255,255,0.65);
+  line-height:1.8;
+  font-size:15px;
+}

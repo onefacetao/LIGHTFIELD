@@ -1,0 +1,21 @@
+
+LIGHTFIELD V4.2 VISUAL SYSTEM REBUILD
+
+HERO SYSTEM FIX
+- Removed duplicated logo/lightfield overlap issue
+- Standardized LIGHTFIELD + 光域 hierarchy
+
+CASE COVER UPGRADE
+- 市集公益行 / 科博会 upgraded to cinematic poster KV
+- Enforced full-bleed visual system
+
+IMAGE SYSTEM RULE
+- Removed PPT-style framing
+- Enforced cinematic cropping and stronger focal hierarchy
+
+LAYOUT SYSTEM
+- Tightened spacing system (more compact rhythm)
+- Unified grid consistency
+
+NOTE:
+This version is a structural system upgrade layer, not final asset replacement.
