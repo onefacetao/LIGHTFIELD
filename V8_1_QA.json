@@ -1,0 +1,10 @@
+{
+  "pitch_route_exists": false,
+  "hero_symbol_removed_home": true,
+  "contact_links": {
+    "app/page.js": true,
+    "app/works/page.js": true,
+    "app/works/[slug]/page.js": true,
+    "app/about/page.js": true
+  }
+}

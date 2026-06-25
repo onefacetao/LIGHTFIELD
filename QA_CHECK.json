@@ -1,0 +1,32 @@
+{
+  "estate_01_referenced": false,
+  "estate_01_file_exists": false,
+  "poly_extra_files": [
+    "poly-01.jpg",
+    "poly-02.jpg",
+    "poly-03.jpg",
+    "poly-04.jpg",
+    "poly-05.jpg",
+    "poly-06.jpg"
+  ],
+  "hongkun_images": [
+    "/images/estate-06.jpg",
+    "/images/estate-05.jpg",
+    "/images/estate-04.jpg"
+  ],
+  "poly_images": [
+    "/images/estate-02.jpg",
+    "/images/estate-03.jpg",
+    "/images/poly-01.jpg",
+    "/images/poly-02.jpg",
+    "/images/poly-03.jpg",
+    "/images/poly-04.jpg",
+    "/images/poly-05.jpg",
+    "/images/poly-06.jpg"
+  ],
+  "sections": [
+    "Selected Work / 精选项目",
+    "More Works / 更多案例",
+    "Extended Works / 延展案例"
+  ]
+}

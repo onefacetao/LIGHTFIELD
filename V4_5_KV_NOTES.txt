@@ -1,0 +1,15 @@
+
+V4.5 KV BURST VERSION
+
+UPGRADES:
+1. 市集公益行 (market)
+- Cover upgraded to market-09.jpg (hero KV level)
+- Enforced poster-first visual hierarchy
+
+2. 绵阳科技博览会 (expo)
+- Cover upgraded to expo-01.jpg (space/light hero KV)
+- Strengthened spatial + light composition reading
+
+SYSTEM RULE:
+- Cover images now must function as standalone KV posters
+- No more "gallery-first" thinking, only "hero-first thinking"

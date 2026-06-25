@@ -1,0 +1,19 @@
+{
+  "pitch_route_exists": false,
+  "market_cover": "/images/market-cover-final.jpg",
+  "expo_cover": "/images/expo-03.jpg",
+  "hongkun_images": [
+    "/images/hongkun-logo.png",
+    "/images/hongkun-logo-vertical.png",
+    "/images/estate-06.jpg",
+    "/images/estate-05.jpg",
+    "/images/estate-04.jpg"
+  ],
+  "south_images": [
+    "/images/south-03.jpg",
+    "/images/south-01.jpg",
+    "/images/south-02.jpg",
+    "/images/south-04.jpg",
+    "/images/south-05.jpg"
+  ]
+}
